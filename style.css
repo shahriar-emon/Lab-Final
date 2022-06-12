@@ -1,0 +1,158 @@
+
+h1 {
+  margin: 1em auto;
+  text-align: center;
+  font-family: Tahoma;
+}
+.main 
+{
+    height:400px;
+	width:100%;
+	border: 4px;
+	
+	border-color: red;
+	border-width: 2px;
+    margin-top:50px;
+	
+}
+.a {
+  background-color: #808080;
+  width: 250px;
+  height: 200px;
+  width:400px;
+  float:left;
+  margin-left:50px;
+  margin-top:50px;
+  border-style: solid; 
+  
+}
+.b {
+  background-color: #808080;
+  width: 250px;
+  height: 200px;
+  width:400px;
+  float:left;
+  margin-top:50px;
+  margin-left:15px;
+  border-style: solid; 
+}
+.c {
+  background-color: #808080;
+  width: 250px;
+  height: 200px;
+  width:400px;
+  float:left;
+  margin-left:15px;
+  margin-top:50px;
+  border-style: solid; 
+  
+}
+p{
+  margin-top: 40px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.Chicken{
+  width: 90px;
+  height: 20px;
+  float:right;
+  background-color:pink;
+  border-style: solid;   
+   
+}
+.d
+{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+  text-align: center;
+  color: black;
+}
+.Beef{
+  width: 90px;
+  height: 20px;
+  float:right;
+  background-color:#A93226; 
+  border-style: solid;   
+   
+}
+.e
+{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+  text-align: center;
+  color: white;
+}
+.Sushi{
+  width: 90px;
+  height: 20px;
+  float:right;
+  background-color:#F9E79F; 
+  border-style: solid;   
+   
+}
+
+.f
+{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+  text-align: center;
+  color: black;
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .main {
+	  width: 100%;
+	 
+
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .a {
+	  width: 50%;
+	  
+  }
+  .b{
+	  width: 50%;
+	  float:left;
+	 
+  }
+  .c{
+	  width: 100%;
+	  float: buttom;
+	  padding: 0;
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .a {
+	  width: 100%;
+	 
+	  padding: 0;
+  }
+  .b{
+	  width: 100%;
+	  float: buttom;
+	  padding: 0;
+  }
+  .c{
+	  width: 100%;
+	  float: buttom;
+	  padding: 0;
+  }
+}
+}
+
+
